@@ -1,5 +1,7 @@
 package com.closedbrain
 
+class Test
+
 fun main() {
-    println("Naser si zkurvenče (advanced funkcionalita bude ASAP)")
+    println("Name teto classy je: " + Test::class.qualifiedName)
 }
