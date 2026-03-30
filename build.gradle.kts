@@ -26,3 +26,9 @@ tasks.test {
 application {
     mainClass = "com.closedbrain.MainKt"
 }
+
+tasks.jar {
+    manifest {
+        attributes["Main-Class"] = application.mainClass.get()
+    }
+}
