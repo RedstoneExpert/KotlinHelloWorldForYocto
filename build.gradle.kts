@@ -14,6 +14,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("com.github.hypfvieh:dbus-java-core:5.2.0")
     implementation("com.github.hypfvieh:dbus-java-transport-native-unixsocket:5.2.0")
+    implementation("ch.qos.logback:logback-classic:1.5.32")
 }
 
 kotlin {
