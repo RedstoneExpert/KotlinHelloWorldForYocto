@@ -13,6 +13,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("com.github.hypfvieh:dbus-java-core:5.2.0")
+    implementation("com.github.hypnosine:dbus-java-transport-native-unix:5.2.0")
 }
 
 kotlin {
