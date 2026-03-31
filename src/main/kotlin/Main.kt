@@ -25,7 +25,7 @@ class CalculatorImpl : Calculator {
 }
 
 fun main() {
-    val connection = DBusConnectionBuilder.forSessionBus().build()
+    val connection = DBusConnectionBuilder.forSystemBus().build()
 
     connection.requestBusName("org.example.CalculatorService")
 
